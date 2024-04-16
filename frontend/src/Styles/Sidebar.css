@@ -1,0 +1,103 @@
+.sidebar-container input[type="radio"]{
+    display: none;
+}
+
+.sidebar-container div{
+    display: inline-block;
+}
+
+.menu-button{
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 2rem;
+    padding-left: 18px;
+    font-weight: 700;
+}
+
+.sidebar-container .label{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin: 3px;
+    padding-top: 3px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.big-label{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 2px 2px 5px 2px #ddd;
+    cursor: pointer;
+}
+
+.big-label i{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.sidebar-container label i{
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar-container h3{
+    height: 30px;
+    margin-top: 20px;
+}
+
+.discover-pages{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-buttons{
+    width: 90px;
+    height: 25px;
+    border-radius: 40px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: auto;
+    border: none;
+    box-shadow: 0px 0px 10px 2px #dfe0df;
+    cursor: pointer;
+    background-color: var(--blue);
+    border: 2px solid white;
+}
+
+.page-buttons:hover{
+    transform: scale(1.1,1.1);
+}
+
+.page-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.page-number input{
+    height: 30px;
+    width: 30px;
+    text-indent: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px #dfe0df;
+    background-color: var(--brown);
+    color: #A0E7E5;
+    border: 2px solid white;
+}
+
+.page-number input:hover{
+    transform: scale(1.1,1.1);
+}

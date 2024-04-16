@@ -1,0 +1,97 @@
+.newscards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card-open {
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 4px;
+    border: var(--border);
+    box-shadow: 2px 2px 5px 2px #ddd;
+    margin-left: 60px;
+}
+
+.card-close {
+    width: 440px;
+    height: 400px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 2px #ddd;
+}
+
+.card-head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card-icons {
+    display: flex;
+    width: 60px;
+    flex-direction: column;
+    margin-left: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.card-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background-color: rgba(74, 31, 13, 0.688);
+    color: var(--blue);
+    border: var(--border);
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon:hover {
+    transform: scale(1.1,1.1);
+}
+
+.card-img-close {
+    width: 380px;
+    aspect-ratio: 1.66;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 3px solid var(--brown);
+}
+
+.card-img-open {
+    width: 450px;
+    aspect-ratio: 1.66;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 3px solid var(--brown);
+}
+
+.card-title {
+    font-size: 1.1rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.card-date {
+    padding: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-stats{
+    text-align: center;
+}

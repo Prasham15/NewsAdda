@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root{
+    --blue: rgb(208, 251, 255);
+    --brown: rgb(74, 31, 13);
+    --hblue: rgb(227, 255, 255);
+    --border: 1px solid #ddd; 
+}
+
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+input:checked ~ .label{
+    background-color: var(--blue);
+    color: black;
+}
+
+input ~ .label:hover{
+    background-color: var(--hblue);
+}
+
+input:checked ~ .label:hover{
+    background-color: var(--blue);
+}
+
+
+input:checked ~ .big-label{
+    background-color: var(--blue);
+    color: black;
+}
+
+input ~ .big-label:hover{
+    background-color: var(--hblue);
+}
+
+input:checked ~ .big-label:hover{
+    background-color: var(--blue);
+}
+
+
+.home-header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color:white;
+}
+
+.about-main{
+    margin: 20px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.about-main ul{
+    margin-bottom: 40px;
+}
+
+.about-main h3{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.follow{
+    display: inline-block;
+    height: 40px;
+    background-color: var(--blue);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.gen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

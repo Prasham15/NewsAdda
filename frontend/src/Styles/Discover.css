@@ -1,0 +1,40 @@
+
+
+.discover-main-open{
+    width: 100%-400px; 
+    margin-left: 315px;
+}
+
+.discover-main-close{
+    width: 100%-200px;
+    margin-left: 115px;
+}
+
+.discover-side-open{
+    position: fixed;
+    width: 250px;
+    left: -12px;
+    z-index: 1;
+    height: 100%;
+    border-right: 1px groove grey;
+    padding-left: 20px;
+    overflow: scroll;
+    margin-left: 12px;
+}
+
+.discover-side-close{
+    position: fixed;
+    width: 100px;
+    z-index: 1;
+    height: 100%;
+    border-right: 1px groove grey;
+    padding: 15px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-container{
+    padding-bottom: 100px;
+}
